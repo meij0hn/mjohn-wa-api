@@ -8,6 +8,7 @@ const fs = require('fs');
 const { phoneNumberFormatter } = require('./helpers/formatter');
 const fileUpload = require('express-fileupload');
 const axios = require('axios');
+const port = process.env.PORT || 1020;
 
 const app = express();
 const server = http.createServer(app);
